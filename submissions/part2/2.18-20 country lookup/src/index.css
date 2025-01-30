@@ -1,0 +1,121 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country-card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.country-card img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 100px;
+  height: auto;
+}
+
+.country-card button {
+  margin-top: 10px;
+}
+
+.country-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.country-details img {
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.country-details h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.weather-info {
+  margin-top: 20px;
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.weather-info img {
+  width: 50px;
+  height: 50px;
+}
